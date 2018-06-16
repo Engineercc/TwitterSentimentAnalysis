@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zemberek</groupId>
+    <artifactId>zemberek</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <dependencies>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-web-api</artifactId>
+                <version>7.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.faces</groupId>
+                <artifactId>jsf-api</artifactId>
+                <version>2.2.13</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.faces</groupId>
+                <artifactId>jsf-impl</artifactId>
+                <version>2.2.13</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet.jsp</groupId>
+                <artifactId>jsp-api</artifactId>
+                <version>2.1</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.primefaces</groupId>
+                <artifactId>primefaces</artifactId>
+                <version>6.1</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.primefaces.themes/rocket -->
+            <dependency>
+                <groupId>org.primefaces.themes</groupId>
+                <artifactId>rocket</artifactId>
+                <version>1.0.10</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+                <version>1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.twitter4j</groupId>
+                <artifactId>twitter4j-core</artifactId>
+                <version>4.0.6</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>0.90.13</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.primefaces.extensions/primefaces-extensions -->
+            <dependency>
+                <groupId>org.primefaces.extensions</groupId>
+                <artifactId>primefaces-extensions</artifactId>
+                <version>6.0.0</version>
+            </dependency>
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>core</artifactId>
+            <version>0.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>tokenization</artifactId>
+            <version>0.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>morphology</artifactId>
+            <version>0.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>normalization</artifactId>
+            <version>0.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit-dep</artifactId>
+            <version>4.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.15</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+    <repository>
+        <id>ahmetaa-repo</id>
+        <name>ahmetaa Maven Repo on Github</name>
+        <url>https://raw.github.com/ahmetaa/maven-repo/master</url>
+    </repository>
+</repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.3.11.v20160721</version>
+                <configuration>
+                    <webApp>
+                        <contextPath>/jsf</contextPath>
+                    </webApp>
+                    <scanIntervalSeconds>0</scanIntervalSeconds>
+                    <scanTargets>
+                        <scanTarget>target/classes/</scanTarget>
+                    </scanTargets>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <webResources>
+                        <resource>
+                            <directory>lib</directory>
+                            <!-- override the destination directory for this resource -->
+                            <targetPath>WEB-INF/lib</targetPath>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>

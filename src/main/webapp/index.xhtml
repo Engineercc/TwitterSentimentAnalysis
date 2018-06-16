@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/jsf/core ">
+
+<h:head>
+    <title>Zemberek</title>
+</h:head>
+<h:body style="font-size: 12px; padding: 0; margin: 0;">
+    <h:form>
+        <div class="ui-g">
+            <div class="ui-g-12">
+                <p:menubar>
+                    <p:menuitem value="Search" outcome="index" icon="ui-icon-search"/>
+                    <p:menuitem value="Data" icon="ui-icon-disk" outcome="data" />
+                </p:menubar>
+                <p:panel header="Twitter Search Filter" id="searchPanel">
+                    <h:panelGrid columns="5">
+                        <p:inputTextarea placeholder="Wildcard" value="#{tweetBean.wildcard}" />
+                        <h:panelGrid columns="1">
+                            <p:calendar placeholder="Start Date" value="#{tweetBean.startDate}" pattern="yyyy-MM-dd HH:mm:ss" />
+                            <p:calendar placeholder="End Date" value="#{tweetBean.endDate}" pattern="yyyy-MM-dd HH:mm:ss" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="2">
+                            <p:outputLabel value="Geo Location" />
+                            <p:selectBooleanCheckbox value="#{tweetBean.geoLocation}" />
+                            <p:outputLabel value="Save Database" />
+                            <p:selectBooleanCheckbox value="#{tweetBean.saveDatabase}" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="2">
+                            <p:spacer width="50" height="10" />
+                            <p:commandLink id="oneri1" value="#{tweetBean.oneri1}" update="tweetDataTable" action="#{tweetBean.oneri1Search}" />
+                            <p:spacer width="50" height="10" />
+                            <p:commandLink id="oneri2" value="#{tweetBean.oneri2}" update="tweetDataTable" action="#{tweetBean.oneri2Search}"/>
+                        </h:panelGrid>
+                    </h:panelGrid>
+                    <f:facet name="footer">
+                        <p:commandButton id="search" value="Arama" action="#{tweetBean.search}" update="tweetDataTable oneri1 oneri2" icon="ui-icon-search" />
+                    </f:facet>
+                </p:panel>
+                <p:blockUI block="searchPanel" trigger="search" />
+                <p:blockUI block="searchPanel" trigger="oneri1" />
+                <p:blockUI block="searchPanel" trigger="oneri2" />
+
+            </div>
+            <div class="ui-g-12 ui-md-12 ui-g-nopad">
+
+                <div class="ui-g-12 ui-g-nopad">
+                    <p:dataTable id="tweetDataTable" paginator="true" rows="10" scrollable="true" scrollHeight="500" style="text-align: center" value="#{tweetBean.tweetList}" var="tw">
+                        <f:facet name="header">
+                            Arama Sonuclari
+                        </f:facet>
+                        <p:column headerText="Create Date">
+                            <h:outputText value="#{tw.createDate}">
+                                <f:convertDateTime pattern="yyyy-MM-dd HH:mm:Ss" />
+                            </h:outputText>
+                        </p:column>
+                        <p:column headerText="User">
+                            <h:outputText value="@#{tw.user}" />
+                        </p:column>
+                        <p:column headerText="City">
+                            <h:outputText value="#{tw.city}" />
+                        </p:column>
+                        <p:column headerText="Country">
+                            <h:outputText value="#{tw.country}" />
+                        </p:column>
+                        <p:column headerText="Tweet">
+                            <h:outputText value="#{tw.tweet}" />
+                        </p:column>
+                    </p:dataTable>
+                    <p:blockUI block="tweetDataTable" trigger="search">
+                        <p:graphicImage width="212" height="125" name="img/cahit.gif"/>
+                    </p:blockUI>
+                    <p:blockUI block="tweetDataTable" trigger="oneri1">
+                        <p:graphicImage width="212" height="125" name="img/cahit.gif"/>
+                    </p:blockUI>
+                    <p:blockUI block="tweetDataTable" trigger="oneri2">
+                        <p:graphicImage width="212" height="125" name="img/cahit.gif"/>
+                    </p:blockUI>
+                </div>
+            </div>
+        </div>
+    </h:form>
+</h:body>
+</html>

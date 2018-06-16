@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:pe="http://primefaces.org/ui/extensions"
+      xmlns:p="http://primefaces.org/ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/jsf/core ">
+<h:head>
+    <title>Zemberek</title>
+    <style type="text/css">
+        .dataList{
+            text-align: center;
+        }
+    </style>
+</h:head>
+<h:body style="font-size: 12px; padding: 0; margin: 0; text-align: center;">
+    <h:form>
+        <div class="ui-g">
+            <div class="ui-g-12">
+                <p:menubar>
+                    <p:menuitem value="Search" outcome="index" icon="ui-icon-search"/>
+                    <p:menuitem value="Data" icon="ui-icon-disk" outcome="data" />
+                </p:menubar>
+            </div>
+            <div class="ui-g-12 ui-md-12 ui-g-nopad">
+                <div class="ui-g-12 ui-g-nopad">
+                    <p:toolbar>
+                        <f:facet name="right">
+                            <p:inputText placeholder="Wildcard" value="#{dataBean.wildcard}" style="width: 350px" />
+                            <p:commandButton value="Search" update="geoPanel cityPanel total usage responseTime dataList" icon="ui-icon-search" action="#{dataBean.search}" />
+                        </f:facet>
+                    </p:toolbar>
+                    <div class="ui-g">
+                        <div class="ui-g-12 ui-md-6">
+                            <p:panel header="Top Region" id="geoPanel">
+                                <pe:gChart id="geo" height="450" value="#{dataBean.mapChartModel}" />
+                            </p:panel>
+                        </div>
+                        <div class="ui-g-12 ui-md-6">
+                            <p:panel header="Top City" id="cityPanel">
+                                <pe:gChart id="city" height="450" value="#{dataBean.cityModel}" />
+                            </p:panel>
+                        </div>
+                        <div class="ui-g-12 ui-md-4">
+                            <p:panel header="Total Document count" style="text-align: center;">
+                                <div class="count" style="background-color:#E18F37" >
+                                    <h:outputText id="total" style="font-size: 45px" value="#{dataBean.docCount}" />
+                                </div>
+                            </p:panel>
+                        </div>
+                        <div class="ui-g-12 ui-md-4">
+                            <p:panel header="Disk Usage" style="text-align: center;">
+                                <div class="count" style="background-color:#C34B77">
+                                    <h:outputText id="usage" style="font-size: 45px" value="#{dataBean.diskUsage}" />
+                                </div>
+                            </p:panel>
+                        </div>
+                        <div class="ui-g-12 ui-md-4">
+                            <p:panel header="Query Response Time" style="text-align: center">
+                                <div class="count" style="background-color:#009688">
+                                    <h:outputText id="responseTime" style="font-size: 45px" value="#{dataBean.took}" />
+                                </div>
+                            </p:panel>
+                        </div>
+                    </div>
+                    <div class="ui-g-12 ui-md-12">
+                        <p:dataTable id="dataList" paginator="true" rows="100" style="font-size: 12px;" value="#{dataBean.dataList}" var="data"
+                                     paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {Exporters}">
+                            <f:facet name="{Exporters}">
+                                <h:commandLink style="float: right">
+                                    <p:graphicImage name="img/csv.png" width="24"/>
+                                    <p:dataExporter type="csv" target="dataList"    fileName="tweet" />
+                                </h:commandLink>
+                            </f:facet>
+                            <p:column headerText="Create Date" exportable="false">
+                                <h:outputText value="#{data.createDate}">
+                                    <f:convertDateTime pattern="yyyy-MM-dd HH:mm:Ss" />
+                                </h:outputText>
+                            </p:column>
+                            <p:column headerText="User" style="text-align: center" exportable="false">
+                                <h:outputText value="@#{data.user}" />
+                            </p:column>
+                            <p:column headerText="City" style="text-align: center" exportable="false">
+                                <h:outputText value="#{data.city}" />
+                            </p:column>
+                            <p:column headerText="Country" style="text-align: center" exportable="false">
+                                <h:outputText value="#{data.country}" />
+                            </p:column>
+                            <p:column headerText="Tweet" style="text-align: center">
+                                <h:outputText value="#{data.tweet}" />
+                            </p:column>
+                        </p:dataTable>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </h:form>
+</h:body>
+</html>

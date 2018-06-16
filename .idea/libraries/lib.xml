@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-grouping-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/normalization-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-join-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-highlighter-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/rocket-1.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-analyzers-common-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-codecs-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/morphology-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jsf-api-2.2.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/primefaces-extensions-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lm-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/antlr4-runtime-4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-spatial-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/core-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/tokenization-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/curvesapi-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-memory-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-misc-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-queries-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-sandbox-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-suggest-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jsf-impl-2.2.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-core-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/primefaces-6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/args4j-2.0.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-queryparser-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/spatial4j-0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/elasticsearch-0.90.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/twitter4j-core-4.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

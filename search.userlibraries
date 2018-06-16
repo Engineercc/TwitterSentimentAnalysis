@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.github.virtuald:curvesapi:1.04">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar" />
+  </library>
+  <library name="Maven: com.google.code.gson:gson:2.2.4">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:18.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar" />
+  </library>
+  <library name="Maven: com.spatial4j:spatial4j:0.3">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/spatial4j/spatial4j/0.3/spatial4j-0.3.jar" />
+  </library>
+  <library name="Maven: com.sun.faces:jsf-api:2.2.13">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/sun/faces/jsf-api/2.2.13/jsf-api-2.2.13.jar" />
+  </library>
+  <library name="Maven: com.sun.faces:jsf-impl:2.2.13">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.10">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.4">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+  </library>
+  <library name="Maven: javax:javaee-web-api:7.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar" />
+  </library>
+  <library name="Maven: javax.servlet.jsp:jsp-api:2.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar" />
+  </library>
+  <library name="Maven: javax.servlet:jstl:1.2">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar" />
+  </library>
+  <library name="Maven: junit:junit-dep:4.8.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/junit/junit-dep/4.8.1/junit-dep-4.8.1.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-collections4:4.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-analyzers-common:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-analyzers-common/4.4.0/lucene-analyzers-common-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-codecs:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-codecs/4.4.0/lucene-codecs-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-core:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-core/4.4.0/lucene-core-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-grouping:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-grouping/4.4.0/lucene-grouping-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-highlighter:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-highlighter/4.4.0/lucene-highlighter-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-join:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-join/4.4.0/lucene-join-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-memory:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-memory/4.4.0/lucene-memory-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-misc:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-misc/4.4.0/lucene-misc-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queries:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-queries/4.4.0/lucene-queries-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queryparser:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-queryparser/4.4.0/lucene-queryparser-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-sandbox:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-sandbox/4.4.0/lucene-sandbox-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-spatial:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-spatial/4.4.0/lucene-spatial-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-suggest:4.4.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/lucene/lucene-suggest/4.4.0/lucene-suggest-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi:3.15">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/poi/poi/3.15/poi-3.15.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml:3.15">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.15">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch:0.90.3">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/elasticsearch/elasticsearch/0.90.3/elasticsearch-0.90.3.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
+  </library>
+  <library name="Maven: org.primefaces.extensions:primefaces-extensions:6.0.0">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/primefaces/extensions/primefaces-extensions/6.0.0/primefaces-extensions-6.0.0.jar" />
+  </library>
+  <library name="Maven: org.primefaces:primefaces:6.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar" />
+  </library>
+  <library name="Maven: org.primefaces.themes:rocket:1.0.10" />
+  <library name="Maven: org.twitter4j:twitter4j-core:4.0.6">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/org/twitter4j/twitter4j-core/4.0.6/twitter4j-core-4.0.6.jar" />
+  </library>
+  <library name="Maven: stax:stax-api:1.0.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
+  </library>
+  <library name="Maven: zemberek-nlp:core:0.11.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/zemberek-nlp/core/0.11.1/core-0.11.1.jar" />
+  </library>
+  <library name="Maven: zemberek-nlp:morphology:0.11.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/zemberek-nlp/morphology/0.11.1/morphology-0.11.1.jar" />
+  </library>
+  <library name="Maven: zemberek-nlp:normalization:0.11.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/zemberek-nlp/normalization/0.11.1/normalization-0.11.1.jar" />
+  </library>
+  <library name="Maven: zemberek-nlp:tokenization:0.11.1">
+    <archive path="C:/Users/Er-Ryan/.m2/repository/zemberek-nlp/tokenization/0.11.1/tokenization-0.11.1.jar" />
+  </library>
+  <library name="lib">
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-grouping-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/normalization-0.11.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.15.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-join-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-highlighter-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/rocket-1.0.10.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-analyzers-common-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-codecs-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/morphology-0.11.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jsf-api-2.2.13.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/primefaces-extensions-6.0.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lm-0.11.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/antlr4-runtime-4.6.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/guava-18.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-spatial-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/core-0.11.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/tokenization-0.11.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/curvesapi-1.04.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-memory-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-misc-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-queries-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-sandbox-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-suggest-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/jsf-impl-2.2.13.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-core-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/primefaces-6.1.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/args4j-2.0.25.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/lucene-queryparser-4.4.0.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/gson-2.2.4.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-3.15.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/spatial4j-0.3.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/elasticsearch-0.90.3.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/twitter4j-core-4.0.6.jar" />
+    <archive path="C:/Users/Er-Ryan/Desktop/New folder (3)/search/target/zemberek-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.15.jar" />
+  </library>
+</eclipse-userlibraries>
+
