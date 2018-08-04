@@ -20,10 +20,10 @@ This part of the project includes Interface design, Natural Language Processing 
 #Project development steps
 1. Arama kutusuna aratılacak olan cümle,tweet veya kullanıcı adı girilir ve kaydet kısmındaki tick işaretlenir. :white_check_mark:
 
-       enter the sentence, tweet or username to be searched and tick the tick in the save. :white_check_mark:
+       enter the sentence, tweet or username to be searched and tick the tick in the save. 
 2. Kelime veya cümle önerisi geldiğinde isteğe göre yeni arama yapılabilir. :white_check_mark:
 
-       Search again by word or sentence suggestion. :white_check_mark:
+       Search again by word or sentence suggestion. 
       
 3. Kaydedilen veriler CSV dosyası formatında bilgisayara kaydedilir. :white_check_mark:
 
@@ -31,5 +31,5 @@ This part of the project includes Interface design, Natural Language Processing 
 
 4. Bu veriler Makine Öğrenmesi uygulaması için Python'a test verisi olarak gönderilir. :white_check_mark:
 
-       These data are sent as test data to Python for Machine Learning application. :white_check_mark:
+       These data are sent as test data to Python for Machine Learning application. 
        
